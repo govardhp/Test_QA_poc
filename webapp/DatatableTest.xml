@@ -1,1 +1,50 @@
-Hello I'm IN 2nd time
+<DataTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/VTAF/xsd/DataTables.xsd" >
+	<Table name="">
+		<Header>
+			<Column name="applicationURL" type="String" />
+			<Column name="firstGridRow" type="String" />
+			<Column name="actionTrashIcon" type="String" />
+			<Column name="deletePopupHeader" type="String" />
+			<Column name="popupDeleteButtonText" type="String" />
+			<Column name="deletedMessagePopup" type="String" />
+			<Column name="ShareTestaction" type="String" />
+			<Column name="sendTestEmailPopup" type="String" />
+			<Column name="previewLinkButton" type="String" />
+			<Column name="userName" type="String" />
+			<Column name="password" type="String" />
+			<Column name="oktaName" type="String" />
+			<Column name="oktaAppName" type="String" />
+		</Header>
+		<Row>
+			<Value>Default</Value>
+			<Value>draft</Value>
+			<Value>Delete</Value>
+			<Value>Delete Draft</Value>
+			<Value>Delete</Value>
+			<Value>Draft has been deleted</Value>
+			<Value>Share</Value>
+			<Value>Send Test Email</Value>
+			<Value>      Preview</Value>
+			<Value> </Value>
+			<Value> </Value>
+			<Value>OktaURL</Value>
+			<Value>Genny - Okta Preview</Value>
+		</Row>
+        <Row>
+			<Value>Default</Value>
+			<Value>Templates</Value>
+			<Value>Templates</Value>
+			<Value>Create Template</Value>
+			<Value>Enter Template Name</Value>
+			<Value>Enter Template Name</Value>
+			<Value>Save</Value>
+			<Value>Test1234</Value>
+			<Value>Templates</Value>
+			<Value>      (no name)</Value>
+			<Value>Save and Exit</Value>
+			<Value>icon-font icon-trash</Value>
+			<Value>Delete Template</Value>
+		</Row>
+</Table>
+</DataTables>
